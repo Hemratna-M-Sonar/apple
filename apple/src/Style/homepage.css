@@ -1,0 +1,180 @@
+.wrapper{
+    margin: 0;
+    margin-top: 2.55rem;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x:hidden;
+}
+.commonsize{
+    width: 100vw;
+    height: 90vh;
+    /* border: 2px solid red; */
+    overflow-x: hidden;
+    /* border: 1px solid red; */
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.ipad-page{
+    background-image: url("../../public/assets/ipad.jpg");
+    margin-top: 2rem;
+}
+.ipad-box{
+    position: absolute;
+    /* border: 2px solid black; */
+    top: 50%;
+    left: 50%;
+    transform: translate(5%, -50%);
+}
+.ipadPro-page{
+    background-image: url("../../public/assets/ipadproLarge.jpg");
+    background-size: cover;
+}
+.ipadPro-box{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(0, -50%);
+}
+.tv-page{
+    background-image: url("../../public/assets/tvlarge.jpg");
+    margin-top: 1rem;
+    background-size: cover;
+}
+.tv-box{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.side-by-side-1{
+    display: flex;
+    /* position: relative; */
+}
+.side-by-side-1 a{
+    text-decoration: none;
+}
+.diwali{
+    background-color: rgb(52, 4, 131);
+    background-image: url("../../public/assets/diwali.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* position: absolute; */
+    width: 48vw;
+    height: 90vh;
+    margin: 0.75rem 0.375rem 0.75rem 0.75rem;
+    position: relative;
+    /* text-align: center; */
+    color: #fff;
+    /* padding-top: 70%; */
+}
+.diwali div{
+    width:100%;
+    position: absolute;
+    top:60%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.diwali div h1{
+    font-size: 2.5rem;
+}
+.diwali div .shop{
+    text-decoration: none;
+    border: 1.5px solid rgb(248, 120, 0);
+    display: inline-block;
+    padding: 0.5rem 2rem;
+    border-radius: 30px;
+    margin-top: 1rem;
+    color: #fff;
+}
+.shop:hover{
+    background-color: rgb(42, 6, 99);
+}
+.commonsmall{
+    width: 48vw;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top:2rem;
+}
+.iphone-14pro-page{
+    background-image: url("../../public/assets/iphonePro.jpg");
+    margin: 0.75rem 0.75rem 0.75rem 0.375rem;
+}
+.iphone-14-page{
+    background-image: url("../../public/assets/iphone.jpg");
+    margin: 0.75rem 0.375rem 0.75rem 0.75rem;
+}
+.iWatch-page{
+    background-image: url("../../public/assets/newWatch.jpg");
+    margin: 0.75rem 0.75rem 0.75rem 0.375rem;
+}
+.watchSeries-page{
+    background-image: url("../../public/assets/watchseries.jpg");
+    margin: 0.75rem 0.375rem 0.75rem 0.75rem;
+}
+.airpods-page{
+    background-image: url("../../public/assets/airpods.jpg");
+    margin: 0.75rem 0.75rem 0.75rem 0.375rem;
+}
+@media (max-width: 768px) {
+    .ipad-page{
+        background-image: url("../../public/assets/ipadsmall.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    .ipad-box{
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .ipadPro-page{
+        background-image: url("../../public/assets/ipadPro.jpg");
+    }
+    .ipadPro-box{
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .tv-page{
+        background-image: url("../../public/assets/tvsmall.jpg");
+        margin-top: 1rem;
+    }
+    .tv-box{
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .side-by-side-1{
+        /* display: inline; */
+        flex-direction: column;
+    }
+    .diwali{
+        width: 100vw;
+        margin: 0.375rem 0;
+    }
+    .diwali div{
+        width: 90%;
+        top: 55%;
+    }
+    .diwali div h1{
+        font-size: 2.1rem;
+    }
+    .diwali div .msg{
+        font-size: 1.2rem;
+    }
+    .commonsmall{
+        width: 100vw;
+        margin: 0.375rem 0;
+    }
+    .iWatch-page{
+        background-image: url("../../public/assets/watch.jpg");
+    }
+}

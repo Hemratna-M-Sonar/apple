@@ -1,0 +1,38 @@
+.main{
+    text-align: center;
+    text-decoration: none;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.titlemini{
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: #000;
+    margin: 0.75rem 0;
+    letter-spacing: -0.1rem;
+}
+.subTitlemini{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: rgb(39, 39, 39);
+    margin: 0.5rem 0;
+    /* letter-spacing: -0.5px; */
+}
+.msgmini{
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem 0;
+}
+.buttons .amini{
+    color: rgb(94, 94, 250);
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0.75rem 1.5rem;
+}
+.amini:hover{
+    text-decoration: underline;
+}

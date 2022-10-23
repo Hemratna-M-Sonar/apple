@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@500&family=Satisfy&display=swap');
+.container{
+    max-width: 98vw;
+    margin: 0 auto;
+    padding: 0 10.2rem;
+}
+.footer{
+    /* height: 120vh; */
+    background: #f5f5f7;
+    font-size: 10px;
+    font-family: 'SF Pro Display',sans-serif;
+    font-weight: 300;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color : #717177;
+}
+a:hover{
+    text-decoration: underline;
+}
+.footer .theory{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #b6b6c2;
+}
+.footer .theory p{
+    font-size: 12px;
+    margin: 1rem;
+    letter-spacing: 0.04rem;
+    line-height: 1rem;
+    color: #86868b;
+}
+.footer .imp-links{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width:100vw;
+}
+.footer .imp-links ul{
+    list-style: none;
+}
+.footer .imp-links ul li{
+    font-size: 0.76rem;
+    margin: 0.7rem;
+    letter-spacing: 0.04rem;
+    color: #76767a;
+}
+.footer .imp-links ul li strong{
+    color: rgb(39, 37, 37);
+}
+.footer .call{
+    font-size: 0.75rem;
+    letter-spacing: 0.04rem;
+    line-height: 2rem;
+    color: #86868b;
+    margin-top: 2.6rem;
+    padding-bottom: 0.7rem;
+    border-bottom: 1px solid #b6b6c2;
+}
+.container .copyright-india{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.75rem;
+    letter-spacing: 0.04rem;
+    color: #86868b;
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+
+}
+.copyright-india .last-links ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -15rem;
+}
+.copyright-india .last-links ul li{
+    padding: 0 1rem;
+    border-right: 1px solid #b6b6c2;
+}
+.copyright-india .last-links ul li:last-child{
+    border: none;
+}
+.retailer{
+    color: rgb(60, 60, 247);
+    display: inline;
+}
+@media (max-width: 768px) {
+    .container{
+        margin: 0 0;
+        padding: 0 0; 
+    }
+    .footer .theory p{
+        font-size: 10px;
+        line-height: 0.75rem;
+    }
+
+    .footer .call{
+        max-width: 65vw;
+        font-size: 0.7rem;
+        margin-left: 0.75rem;
+        line-height: 1rem;
+        border-bottom: none;
+    }
+
+    .copyright{
+        margin-left: 0.75rem;
+        max-width: 70vw;
+        font-size: 10px;
+    }
+    .copyright-india .last-links ul{
+        list-style: none;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0.5rem 1rem 0 0.5rem;
+        /* width: 100vw; */
+    }
+
+    .copyright-india .last-links ul li{
+        /* padding: 0 -1rem; */
+        padding-right: 0.5rem;
+        padding-left: 0.25rem;
+        border-right: 1px solid #b6b6c2;
+
+    }
+    .last-links ul li a{
+        font-size: 0.7rem;
+    }
+    .container .copyright-india{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .india{
+        margin: 0.75rem;
+    }
+    .footer .imp-links{
+        overflow: hidden;
+        padding-top: 1rem;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        max-width: 100vw;
+        justify-content: space-evenly;
+    }
+    .footer .imp-links ul li{
+        font-size: 0.6rem;
+        margin: 0.7rem;
+        letter-spacing: 0.04rem;
+        color: #76767a;
+    }
+}
